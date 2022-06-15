@@ -1,9 +1,11 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <div>
+	  <Head>
       {/*Metadados*/}
       <meta charSet="UTF-8" />
       <meta name="author" content="Desenvolvido por Gustavo Ferreira" />
@@ -26,21 +28,22 @@ export default function Home() {
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       />
+	  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+	  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+	  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+	  <link rel="manifest" href="/site.webmanifest"/>
+	  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#603cba"/>
+	  <meta name="msapplication-TileColor" content="#603cba"/>
+	  <meta name="theme-color" content="#ffffff"/>
       <style
         dangerouslySetInnerHTML={{
           __html:
             '\n        html, body, h1, h2, h3, h4, h5, h6{\n\tfont-family: "Roboto", sans-serif;\n}\n        ',
         }}
       />
-	  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	  <link rel="manifest" href="/site.webmanifest">
-	  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#603cba">
-	  <meta name="msapplication-TileColor" content="#603cba">
-	  <meta name="theme-color" content="#ffffff">
       {/*Titulo da Página*/}
       <title>Currículo Vitae | Gustavo Ferreira</title>
+	  </Head>
       {/*Conteiner da Pagina*/}
       <div className="w3-content w3-margin-top larg-pagina">
         {/*Grid da Pagina*/}
