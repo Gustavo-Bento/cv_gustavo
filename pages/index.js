@@ -32,7 +32,7 @@ export default function Home() {
             '\n        html, body, h1, h2, h3, h4, h5, h6{\n\tfont-family: "Roboto", sans-serif;\n}\n        ',
         }}
       />
-      <link rel="shortcut icon" href="../public/img/icon.jpg" />
+      <link rel="shortcut icon" href="/img/icon.jpg" />
       {/*Titulo da Página*/}
       <title>Currículo Vitae | Gustavo Ferreira</title>
       {/*Conteiner da Pagina*/}
@@ -49,7 +49,7 @@ export default function Home() {
                 <div className="w3-display-container">
                   {/*Imagem do Perfil*/}
                   <img
-                    src="../public/img/perfil.jpg"
+                    src="/img/perfil.jpg"
                     alt="Gustavo Ferreira"
                     style={{width:'45%'}}
                   />
