@@ -32,7 +32,13 @@ export default function Home() {
             '\n        html, body, h1, h2, h3, h4, h5, h6{\n\tfont-family: "Roboto", sans-serif;\n}\n        ',
         }}
       />
-      <link rel="shortcut icon" href="/img/icon.jpg" />
+	  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	  <link rel="manifest" href="/site.webmanifest">
+	  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#603cba">
+	  <meta name="msapplication-TileColor" content="#603cba">
+	  <meta name="theme-color" content="#ffffff">
       {/*Titulo da Página*/}
       <title>Currículo Vitae | Gustavo Ferreira</title>
       {/*Conteiner da Pagina*/}
@@ -49,9 +55,9 @@ export default function Home() {
                 <div className="w3-display-container">
                   {/*Imagem do Perfil*/}
                   <img
-                    src="/img/perfil.jpg"
+                    src="/perfil.jpg"
                     alt="Gustavo Ferreira"
-                    style={{width:'45%'}}
+                    style={{width:'75%'}}
                   />
                   {/*Nome do perfil*/}
                   <div className="w3-display-bottomleft w3-container w3-text-white">
