@@ -13,7 +13,7 @@
             </p>
         </td>
         <td width="65%"> 
-            <table>
+            <table width="100%">
                 <tr>    
                     <td>
                         <h5 align="center">Principal Programming Languages:</h3>
@@ -47,7 +47,6 @@
                         </p>
                     </td>  
                 </tr>
-                <hr>
                 <tr>
                     <td>
                         <h5 align="center">Principal Frontend Development:</h3>
@@ -78,7 +77,6 @@
                         </p>
                     </td>
                 </tr>
-                <hr>
                 <tr>
                     <td>
                         <h5 align="center">Mobile App Development:</h3>
@@ -96,7 +94,6 @@
                         </p>
                     </td>
                 </tr>
-                <hr>
                 <tr>
                     <td>
                         <h5 align="center">Database:</h3>
@@ -112,7 +109,6 @@
                         </p>
                     </td>
                 </tr>
-                <hr>
                 <tr>
                     <td>
                         <h5 align="center">Software</h3>
@@ -131,7 +127,6 @@
                         </p>
                     </td>
                 </tr>
-                <hr>
             </table>
         </td>
     </tr>
